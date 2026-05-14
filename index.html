@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>kigali exchange bureau</h1>
+            <p> customer registration & currency exchange</p>
+            <div class="form">
+                <input id="customer-name" type="text" placeholder="enter customer name"><br><br>
+                <input id="amount" type="number" placeholder="enter amount"><br><br>
+                <select id="currency">
+                    <option value="RWF">select currency</option>
+                    <option value="USD">USD-RWF</option>
+                    <option value="EUR">EUR-RWF</option>
+                    <option value="GBP">GBP-RWF</option>
+                    <option value="JPY">JPY-RWF</option>
+                    <option value="CNY">CNY-RWF</option>
+                    <option value="AUD">AUD-RWF</option>
+                    <option value="CAD">CAD-RWF</option>
+                    <option value="DRC">DRC-RWF</option>
+                </select>
+                <br><br>
+                <button id="convert">convert</button>
+                                    <div id="converted-result" class="result"></div>
+
+            </div>
+            <div class="table">
+                <table>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Amount</th>
+                    <th>Currency</th>
+                    <th>Converted Amount</th>
+                </tr>
+                <tr>
+                    <td>capable</td>
+                    <td>1000</td>
+                    <td>DRC-RWF</td>
+                    <td>1000000</td>
+                </tr>
+                 <tr>
+                    <td>cm_kevin</td>
+                    <td>100</td>
+                    <td>USD-RWF</td>
+                    <td>10000</td>
+                </tr>
+                 <tr>
+                    <td>ketia_a</td>
+                    <td>10</td>
+                    <td>CAD-RWF</td>
+                    <td>1005</td>
+                </tr>
+                </table>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <footer>
+            <p>&copy; 2023 Kigali Exchange Bureau. All rights reserved.</p>
+            <p>123 Main Street, Kigali, Rwanda</p>
+            <p>Contact: +250 788 123 456</p>
+        </footer>
+    </body>
+</html>
